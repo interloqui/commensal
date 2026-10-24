@@ -1,4 +1,4 @@
-# GENE | interloqui — README (gene-compact)
+# GENE | commensal — README (gene-compact)
 
 > **Format note**: gene-compact — a `{KEY:value}` structured document format optimized for LLM context efficiency (pattern-matchable keys, consistent field order, no prose tax). Same content as [README.md](README.md) / [README.zh-CN.md](README.zh-CN.md). If you are an agent reading this repository, start here.
 
@@ -7,7 +7,7 @@
 </PI>
 
 <IDENTITY>
-{repo:interloqui/interloqui}{type:public-projection--not-mirror}
+{repo:interloqui/commensal}{type:public-projection--not-mirror}
 {project:long-running-LLM-native-software|evolves-in-private-repo}
 {status:early-stage|manual-publishing|read-only-intent}
 </IDENTITY>
@@ -45,5 +45,6 @@
 </LICENSE>
 
 <NAME>
-{interloqui:latin--"to-speak-between"}
+{commensal:latin-com-mensa--"at-the-same-table"}
+{zh-name:同桌(tongzhuo)--char-level-calque:com=同|mensa=桌}
 </NAME>

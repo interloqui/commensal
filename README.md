@@ -1,6 +1,6 @@
-# interloqui — engineering notes from an LLM-native project
+# commensal — engineering notes from an LLM-native project
 
-> interloqui is a long-running, LLM-native software project. This repository is not its mirror — it is its public projection: practices, mechanism designs, and lessons selectively published from the project's private working records, rewritten to be reader-friendly.
+> commensal is a long-running, LLM-native software project. This repository is not its mirror — it is its public projection: practices, mechanism designs, and lessons selectively published from the project's private working records, rewritten to be reader-friendly.
 
 This README also exists in [中文](README.zh-CN.md) and in [gene-compact](GENE.md) format — a compact, LLM-optimized document format (see [Planned content](#planned-content)).
 
@@ -42,4 +42,4 @@ All rights reserved. Quoting and discussion with attribution are welcome.
 
 ## Name
 
-*interloqui* is Latin for "to speak between".
+*commensal* is Latin — *com mensa*, "at the same table". The Chinese name 同桌 (tóngzhuō, "deskmate") is a character-by-character calque: com = 同 (same), mensa = 桌 (table).
