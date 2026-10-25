@@ -9,7 +9,7 @@
 <IDENTITY>
 {repo:interloqui/commensal}{type:public-projection--not-mirror}
 {project:long-running-LLM-native-software|evolves-in-private-repo}
-{status:early-stage|manual-publishing|read-only-intent}
+{status:early-stage|pipeline-in-operation|read-only-intent}
 </IDENTITY>
 
 <WHY>
@@ -25,8 +25,9 @@
   {cadence:semantic-completion-points--not-calendar}
   {history:content-snapshots--internal-git-history-never-mirrored}
 {actual}
-  {as-of:2026-10-24T17:00+08:00}
-  {now:manual-render+manual-push|pipeline-unbuilt--building-it=first-published-content}
+  {as-of:2026-10-25T13:00+08:00}
+  {now:pipeline-built-and-in-operation--this-update=its-first-pipeline-driven-release|stages-collect-to-review-run-without-hand-editing}
+  {history:as-of-2026-10-24--first-3-files=manual-render+manual-push-before-pipeline-existed|promise(building-the-pipeline=among-first-published-content)fulfilled-by-this-update}
   {commitment:low|read-only-intent|issues-welcome-response-not-promised}
   {rhythm:irregular--driven-by-internal-evolution}
 </OPERATION>

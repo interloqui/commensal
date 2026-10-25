@@ -21,9 +21,10 @@ We do not publish the main repository directly, for two reasons. First, the rese
 
 ## Actual operation (current state)
 
-*As of 2026-10-24 17:00 (UTC+8)*
+*As of 2026-10-25 13:00 (UTC+8)*
 
-- Releases are currently **rendered and pushed by hand**; the pipeline above does not exist yet — building it will itself be among the first things published here.
+- **The publishing pipeline is now built and in operation — this very update is its first pipeline-driven release.** Concretely: the diff since the last release is collected mechanically, the update is rendered by an LLM, fail-closed mechanical checks scan it for secrets and internal identifiers, and only then does it go to human final review before the push. The stages between collection and review now run without hand-editing.
+- *Historical note (as of 2026-10-24)*: the first three files were rendered and pushed by hand, before the pipeline existed — with the promise that building the pipeline would itself be among the first things published here. That promise is fulfilled by this update.
 - **Low maintenance commitment.** This repository is read-only by intent. Issues are welcome, but timely responses are not promised.
 - Releases are irregular, driven by internal evolution.
 
@@ -42,4 +43,4 @@ All rights reserved. Quoting and discussion with attribution are welcome.
 
 ## Name
 
-*commensal* is Latin — *com mensa*, "at the same table". The Chinese name 同桌 (tóngzhuō, "deskmate") is a character-by-character calque: com = 同 (same), mensa = 桌 (table).
+*commensal* is Latin — *com mensa*, "at the same table". The project's Chinese name, 同桌 (*tóngzhuō*, "deskmate"), calques the same phrase character by character: *com* gives 同 ("same"), *mensa* gives 桌 ("table").
